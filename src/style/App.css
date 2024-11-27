@@ -12,7 +12,7 @@
   gap: 1rem;
 }
 
-.container .waterQuality {
+.container .student {
   border: solid 1px #212121;
   border-radius: .3rem;
   width: 15rem;
@@ -23,6 +23,6 @@
 }
 
 
-.container .waterQuality h1 {
+.container .student h1 {
   font-size: 1.25rem;
 }
