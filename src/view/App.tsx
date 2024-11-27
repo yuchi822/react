@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react'
-import './App.css'
-import { WaterQualityData } from './interface/WaterQualityData'
+import '../style/App.css'
+import { WaterQualityData } from '../interface/WaterQualityData'
 
 type WaterQualityResp = {
   httpCode: number,
