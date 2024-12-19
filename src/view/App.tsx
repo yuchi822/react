@@ -1,9 +1,12 @@
 import { useEffect, useRef, useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom'; 
 import '../style/App.css'
 import { asyncGet } from '../utils/fetch'
 import { api } from '../enum/api'
 import { Student } from '../interface/Student'
 import { resp } from '../interface/resp'
+import Navbar from "./Navbar";
+
 
 function App() {
 
@@ -41,11 +44,13 @@ function App() {
   }) : "loading"
 
   return (
+    <Router>
     <>
       <div className="container">
         {studentList}
       </div>
     </>
+    </Router>
   )
 }
 
